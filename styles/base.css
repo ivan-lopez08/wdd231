@@ -1,0 +1,118 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/**************Header*******************/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+    align-items: end;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4px;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #277538;
+}
+
+/*****************HAMBURGUER********************/
+.hamburguer{
+    background: none;
+    border: none;
+    color: #277538;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.hamburguer::before{
+    content: "\2630";
+    
+}
+
+.hamburguer.show::before{
+    content: "\00D7";
+}
+
+/*****************NAVIGATION********************/
+
+.navigation{
+    display: none;
+}
+
+.navigation.show{
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a{
+    display: block;
+    padding: .8rem 10px;
+    color: #277538;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation li.current{
+    background-color: #eee;
+}
+
+.navigation a:hover{
+    background-color: #ddd;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+/*****************FOOTER********************/
+
+footer{
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex; 
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+}
+
+.social img{
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover{
+    background-color: #ddd;
+}
+
+.list ul li{
+    display: none;
+}
