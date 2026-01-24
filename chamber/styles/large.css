@@ -42,4 +42,36 @@
         width: 350px;
         min-height: 255px;
     }
+
+    /*****************Home | Main********************/
+
+    #hero img {
+        height: 550px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content {
+        bottom: 3rem;
+    }
+
+    .events-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+     .weather-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .current-weather {
+        text-align: left;
+    }
+
+    .spotlights-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
