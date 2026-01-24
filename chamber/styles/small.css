@@ -43,7 +43,6 @@ header span {
 
 .navigation {
     display: none;
-    background-color: var(--background-color);
 }
 
 .navigation.show {
@@ -309,7 +308,7 @@ h1 {
 
 .event-date {
     font-size: 0.85rem;
-    color: #777;
+    color: #333333;
     margin-bottom: 0.5rem;
 }
 
