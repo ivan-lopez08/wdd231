@@ -24,6 +24,20 @@ async function getSpotlights() {
         const name = document.createElement('h3');
         name.textContent = member.name;
 
+        const badge = document.createElement('span');
+        badge.classList.add('membership-badge');
+
+        switch (member["membership-lvl"]) {
+            case 2:
+                badge.textContent = "Silver Member";
+                badge.classList.add('silver');
+                break;
+            case 3:
+                badge.textContent = "Gold Member";
+                badge.classList.add('gold');
+                break;
+        }
+
         const list = document.createElement('ul');
         member.addresses.forEach(addr => {
             const li = document.createElement('li');
@@ -39,7 +53,7 @@ async function getSpotlights() {
         website.textContent = 'Visit Website';
         website.target = '_blank';
 
-        card.append(img, name, list, phone, website);
+        card.append(img, name,badge , list, phone, website);
         spotlightContainer.appendChild(card);
     });
 }
