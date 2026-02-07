@@ -448,6 +448,162 @@ h1 {
     text-decoration: underline;
 }
 
+/******** JOIN PAGE ********/
+.join-container {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.join-form {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.join-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.membership-cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.level-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.level-card a {
+    color: #C9A227;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.level-card a:hover {
+    text-decoration: underline;
+}
+
+/* Animation on load */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/******** THANK YOU PAGE ********/
+.thankyou-page {
+    padding: 1rem;
+}
+
+.thankyou-card {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.thankyou-card h2 {
+    margin-top: 1.5rem;
+    color: #1F3A5F;
+}
+
+.submitted-info {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.submitted-info li {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+/******** JOIN | MODALS ********/
+
+dialog {
+    border: none;
+    border-radius: 12px;
+    padding: 1.5rem;
+    max-width: 420px;
+    width: 90%;
+    background-color: #f4f4f4;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    animation: modalFade 0.3s ease-out;
+    margin: auto;
+}
+
+/* Backdrop */
+dialog::backdrop {
+    background: rgba(31, 58, 95, 0.75);
+}
+
+/* Modal content */
+dialog h3 {
+    color: #1F3A5F;
+    margin-bottom: 0.75rem;
+    font-size: 1.4rem;
+}
+
+dialog p {
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+}
+
+/* Close button */
+dialog .close {
+    background-color: #C9A227;
+    color: #1F3A5F;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+dialog .close:hover {
+    background-color: #b3921f;
+    transform: scale(1.03);
+}
+
+@keyframes modalFade {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 
 /*****************FOOTER********************/

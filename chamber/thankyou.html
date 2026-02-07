@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for joining the Tegucigalpa Business Chamber">
+    <meta name="author" content="Ivan Lopez">
+    <link rel="icon" href="images/logo.ico">
+
+    <title>Thank You</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- Scripts -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/tbc-logo.png" alt="Logo">
+        <span>Tegucigalpa Business Chamber</span>
+        <button id="ham-btn" class="hamburguer"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main class="thankyou-page">
+        <h1>Thank You for Joining!</h1>
+
+        <section class="thankyou-card">
+            <p>
+                We appreciate your interest in becoming a member of the
+                <strong>Tegucigalpa Business Chamber</strong>.
+            </p>
+
+            <h2>Your Submitted Information</h2>
+
+            <ul class="submitted-info">
+                <li><strong>First Name:</strong> <span id="firstName"></span></li>
+                <li><strong>Last Name:</strong> <span id="lastName"></span></li>
+                <li><strong>Email:</strong> <span id="email"></span></li>
+                <li><strong>Mobile Phone:</strong> <span id="phone"></span></li>
+                <li><strong>Business Name:</strong> <span id="business"></span></li>
+                <li><strong>Date Submitted:</strong> <span id="timestamp"></span></li>
+            </ul>
+
+            <a href="index.html" class="cta-btn">Return to Home</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="facebook.com" target="_blank"><img src="images/facebook.svg" alt="facebook"></a>
+            <a href="github.com/Ivan-Lopez08" target="_blank"><img src="images/github.svg" alt="github"></a>
+            <a href="linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin"></a>
+            <a href="web.whatsapp.com" target="_blank"><img src="images/whatsapp.svg" alt="whatsapp"></a>
+        </div>
+        <p>©<span id="currentyear"></span> Tegucigalpa Business Chamber</p>
+        <p>Ivan Lopez - Tegucigalpa, Honduras</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

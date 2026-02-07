@@ -74,4 +74,9 @@
     .spotlights-container {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .join-container {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+    }
 }
