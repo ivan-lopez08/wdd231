@@ -26,7 +26,7 @@ header span {
 .hamburguer {
     background: none;
     border: none;
-    color:#F4F4F4;
+    color: #F4F4F4;
     font-size: 2rem;
     cursor: pointer;
 }
@@ -79,7 +79,7 @@ h1 {
 }
 
 /* Button styles */
-#toggle{
+#toggle {
     width: 200px;
     margin: 1rem;
     padding: .5rem;
@@ -189,7 +189,8 @@ h1 {
     background-color: #f4f4f4;
 }
 
-#members-table th, #members-table td {
+#members-table th,
+#members-table td {
     border: 1px solid #ccc;
     padding: 0.6rem 0.8rem;
     text-align: left;
@@ -236,7 +237,7 @@ h1 {
 
 .hero-content {
     position: absolute;
-    bottom: 2rem;        
+    bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(15, 32, 64, 0.75);
@@ -293,13 +294,13 @@ h1 {
     background-color: #fff;
     padding: 1rem 1.25rem;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .event-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
 .event-card h3 {
@@ -363,7 +364,7 @@ h1 {
     background-color: #fff;
     padding: 0.8rem 1rem;
     border-radius: 8px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.06);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
     text-align: center;
     min-width: 70px;
 }
@@ -401,13 +402,13 @@ h1 {
     background-color: #fff;
     padding: 1rem 1.25rem;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .spotlight-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
 .spotlight-card img {
@@ -459,7 +460,7 @@ h1 {
     background: #f4f4f4;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
 }
 
 .join-form label {
@@ -486,7 +487,7 @@ h1 {
     background: #fff;
     padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
 }
 
@@ -521,7 +522,7 @@ h1 {
     background-color: #f4f4f4;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -597,14 +598,95 @@ dialog .close:hover {
         opacity: 0;
         transform: translateY(15px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
+/******** DISCOVER PAGE ********/
 
+.discover-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1rem;
 
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+}
+
+.discover-card {
+    background: #ffffff;
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.discover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+.discover-card h2 {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #1F3A5F;
+    margin-bottom: 0.6rem;
+}
+
+.discover-card address {
+    font-style: normal;
+    font-size: 0.85rem;
+    margin: 0.6rem 0;
+}
+
+.discover-card figure {
+    margin: 0;
+}
+
+.discover-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+
+.discover-card button {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    background-color: #1F3A5F;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.discover-card button:hover {
+    background-color: #C9A227;
+    color: #1F3A5F;
+    transform: scale(1.05);
+}
+
+.visit-message {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #eef3f9;
+    border-left: 5px solid #C9A227;
+    font-weight: 500;
+}
 
 /*****************FOOTER********************/
 

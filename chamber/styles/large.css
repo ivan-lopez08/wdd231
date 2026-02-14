@@ -61,7 +61,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-     .weather-container {
+    .weather-container {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
@@ -79,4 +79,20 @@
         grid-template-columns: 2fr 1fr;
         align-items: start;
     }
+
+    .discover-grid {
+        grid-template-areas:
+            "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8 card8";
+    }
+
+    .discover-card img {
+        transition: box-shadow 0.3s ease;
+    }
+
+    .discover-card img:hover {
+        box-shadow: 0 8px 18px rgba(31, 58, 95, 0.35);
+    }
+
 }

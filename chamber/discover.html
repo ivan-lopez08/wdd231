@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the business directory for the Tegucigalpa Business Chamber">
+    <meta name="description"
+        content="This is the Discover page for the Tegucigalpa Business Chamber, become one of our members here">
     <meta name="author" content="Ivan Lopez">
     <link rel="icon" href="images/logo.ico">
-    <title>Directory</title>
+    <title>Discover Tegucigalpa Business Chamber</title>
 
     <!-- Facebook media settings -->
     <meta property="og:title" content="Tegucigalpa Business Chamber">
@@ -22,11 +23,12 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
 
     <!-- Scripts -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/footer.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,28 +47,23 @@
     <nav id="nav-bar" class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li class="current"><a href="#">Directory</a></li>
+            <li class="current"><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main>
-        <h1>Business Directory</h1>
-        <button id="toggle">Show Table</button>
-        <div id="members"></div>
-        <table id="members-table">
-            <thead>
-                <tr>
-                    <th>Company</th>
-                    <th>Phone</th>
-                    <th>Website</th>
-                </tr>
-            </thead>
-            <tbody>
+    <main class="discover-page">
+        <h1>Discover Tegucigalpa</h1>
 
-            </tbody>
-        </table>
+        <!-- Visit Message -->
+        <section class="visit-message" id="visitMessage"></section>
+
+        <!-- Cards Grid -->
+        <section class="discover-grid" id="discoverGrid">
+            <!-- Cards injected by JS -->
+        </section>
     </main>
+
     <footer>
         <div class="social">
             <a href="facebook.com" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16"
