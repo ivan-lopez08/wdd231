@@ -1,0 +1,61 @@
+@media only screen and (min-width: 38rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .hamburguer {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 100px auto;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px #ddd;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    .hero-carousel {
+        height: 75vh;
+    }
+
+    .hero-overlay h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-overlay p {
+        font-size: 1.2rem;
+    }
+
+    .media-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .featured-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .library-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .library-controls {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Submitted</title>
+  <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+
+<main style="padding:2rem; text-align:center; color:white; background:#0f172a; min-height:100vh;">
+
+  <h1>Thank You!</h1>
+  <p>Your request has been submitted successfully.</p>
+
+  <h3>Request Details:</h3>
+
+  <div id="formResults"></div>
+
+  <a href="library.html" class="cta-btn">Back to Library</a>
+
+</main>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const output = document.getElementById("formResults");
+
+  output.innerHTML = `
+    <p><strong>Name:</strong> ${params.get("fullname")}</p>
+    <p><strong>Email:</strong> ${params.get("email")}</p>
+    <p><strong>Title:</strong> ${params.get("mediaTitle")}</p>
+    <p><strong>Creator:</strong> ${params.get("creator")}</p>
+    <p><strong>Category:</strong> ${params.get("category")}</p>
+    <p><strong>Notes:</strong> ${params.get("notes")}</p>
+  `;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "creator": "Christopher Nolan",
+    "year": 2010,
+    "genre": "Sci-Fi",
+    "type": "Film",
+    "image": "images/media_images/inception.webp",
+    "featured": true,
+    "description": "A skilled thief enters dreams to steal secrets from the subconscious."
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "creator": "Christopher Nolan",
+    "year": 2008,
+    "genre": "Action",
+    "type": "Film",
+    "image": "images/media_images/darkknight.webp",
+    "featured": true,
+    "description": "Batman faces the Joker in a battle for Gotham's soul."
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "creator": "Christopher Nolan",
+    "year": 2014,
+    "genre": "Sci-Fi",
+    "type": "Film",
+    "image": "images/media_images/interstellar.webp",
+    "featured": true,
+    "description": "Explorers travel through a wormhole in space to ensure humanity's survival."
+  },
+  {
+    "id": 4,
+    "title": "The Hobbit",
+    "creator": "J.R.R. Tolkien",
+    "year": 1937,
+    "genre": "Fantasy",
+    "type": "Book",
+    "image": "images/media_images/hobbit.webp",
+    "featured": false,
+    "description": "Bilbo Baggins embarks on an unexpected journey."
+  },
+  {
+    "id": 5,
+    "title": "1984",
+    "creator": "George Orwell",
+    "year": 1949,
+    "genre": "Dystopian",
+    "type": "Book",
+    "image": "images/media_images/1984.webp",
+    "featured": false,
+    "description": "A chilling vision of a totalitarian future society."
+  },
+  {
+    "id": 6,
+    "title": "The Lord of the Rings",
+    "creator": "J.R.R. Tolkien",
+    "year": 1954,
+    "genre": "Fantasy",
+    "type": "Book",
+    "image": "images/media_images/lotr.webp",
+    "featured": false,
+    "description": "An epic quest to destroy the One Ring."
+  },
+  {
+    "id": 7,
+    "title": "Thriller",
+    "creator": "Michael Jackson",
+    "year": 1982,
+    "genre": "Pop",
+    "type": "Album",
+    "image": "images/media_images/thriller.webp",
+    "featured": true,
+    "description": "The best-selling album of all time."
+  },
+  {
+    "id": 8,
+    "title": "Back in Black",
+    "creator": "AC/DC",
+    "year": 1980,
+    "genre": "Rock",
+    "type": "Album",
+    "image": "images/media_images/backinblack.webp",
+    "featured": false,
+    "description": "One of the highest-selling rock albums ever."
+  },
+  {
+    "id": 9,
+    "title": "The Matrix",
+    "creator": "The Wachowskis",
+    "year": 1999,
+    "genre": "Sci-Fi",
+    "type": "Film",
+    "image": "images/media_images/matrix.webp",
+    "featured": false,
+    "description": "A hacker discovers reality is a simulation."
+  },
+  {
+    "id": 10,
+    "title": "Gladiator",
+    "creator": "Ridley Scott",
+    "year": 2000,
+    "genre": "Drama",
+    "type": "Film",
+    "image": "images/media_images/gladiator.webp",
+    "featured": false,
+    "description": "A betrayed Roman general seeks revenge."
+  },
+  {
+    "id": 11,
+    "title": "Dune",
+    "creator": "Frank Herbert",
+    "year": 1965,
+    "genre": "Sci-Fi",
+    "type": "Book",
+    "image": "images/media_images/dune.webp",
+    "featured": false,
+    "description": "A complex tale of politics, religion, and ecology."
+  },
+  {
+    "id": 12,
+    "title": "Abbey Road",
+    "creator": "The Beatles",
+    "year": 1969,
+    "genre": "Rock",
+    "type": "Album",
+    "image": "images/media_images/abbeyroad.webp",
+    "featured": true,
+    "description": "One of the Beatles' most iconic albums."
+  },
+  {
+    "id": 13,
+    "title": "Avatar",
+    "creator": "James Cameron",
+    "year": 2009,
+    "genre": "Sci-Fi",
+    "type": "Film",
+    "image": "images/media_images/avatar.webp",
+    "featured": false,
+    "description": "A marine on an alien planet must choose sides."
+  },
+  {
+    "id": 14,
+    "title": "The Shawshank Redemption",
+    "creator": "Frank Darabont",
+    "year": 1994,
+    "genre": "Drama",
+    "type": "Film",
+    "image": "images/media_images/shawshank.webp",
+    "featured": false,
+    "description": "Two imprisoned men bond over decades."
+  },
+  {
+    "id": 15,
+    "title": "The Alchemist",
+    "creator": "Paulo Coelho",
+    "year": 1988,
+    "genre": "Adventure",
+    "type": "Book",
+    "image": "images/media_images/alchemist.webp",
+    "featured": false,
+    "description": "A shepherd travels to find his personal legend."
+  },
+  {
+    "id": 16,
+    "title": "Tenet",
+    "creator": "Christopher Nolan",
+    "year": 2020,
+    "genre": "Sci-Fi",
+    "type": "Film",
+    "image": "images/media_images/tenet.webp",
+    "featured": true,
+    "description": "A secret agent manipulates time to prevent global catastrophe."
+  },
+  {
+    "id": 17,
+    "title": "Random Access Memories",
+    "creator": "Daft Punk",
+    "year": 2013,
+    "genre": "Electronic",
+    "type": "Album",
+    "image": "images/media_images/ram.webp",
+    "featured": false,
+    "description": "A tribute to late 70s and early 80s American music."
+  },
+  {
+    "id": 18,
+    "title": "The Godfather",
+    "creator": "Francis Ford Coppola",
+    "year": 1972,
+    "genre": "Crime",
+    "type": "Film",
+    "image": "images/media_images/godfather.webp",
+    "featured": false,
+    "description": "The aging patriarch of an organized crime dynasty transfers control to his son."
+  }
+]
