@@ -68,6 +68,7 @@ header span {
     margin: 0;
     padding: 0;
     background-color: #ddd;
+    color: black;
 }
 
 .navigation a {
