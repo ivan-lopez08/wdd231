@@ -78,6 +78,10 @@ header span {
     text-decoration: none;
 }
 
+.navigation li{
+  color: black;
+}
+
 .navigation li.current {
     background-color: #f8cf88;
     color: black;
