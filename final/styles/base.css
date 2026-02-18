@@ -6,6 +6,10 @@
     color: white;
 }
 
+html{
+  background-color: #0f172a;
+}
+
 /**************Header*******************/
 header {
     display: grid;
@@ -63,6 +67,7 @@ header span {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #ddd;
 }
 
 .navigation a {
