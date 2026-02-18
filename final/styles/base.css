@@ -238,11 +238,6 @@ footer {
     background-color: #F59E0B;
 }
 
-.featured {
-    padding: 2rem 1rem;
-    text-align: center;
-}
-
 .featured h2 {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
@@ -282,6 +277,7 @@ footer {
 .featured {
   padding: 4rem 1.5rem;
   background-color: #0f172a;
+  text-align: center;
 }
 
 .section-title {
